@@ -22,8 +22,7 @@
   }
 
   &--blue {
-    background-color: $mainBlue;
-    color: #FFF;
+    color: $mainBluee;
   }
 
   &--testimonials {

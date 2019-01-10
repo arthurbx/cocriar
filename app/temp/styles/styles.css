@@ -630,8 +630,7 @@ a {
 }
 
 .page-section--blue {
-  background-color: #6600ff;
-  color: #FFF;
+  color: #0066cc;
 }
 
 .page-section--testimonials {
@@ -759,7 +758,7 @@ a {
 
   .row__medium-6 {
     float: left;
-    width: 50%;
+    width: 80%;
   }
 
   .row__medium-8 {
@@ -868,7 +867,7 @@ a {
 }
 
 .section-title--blue {
-  color: #6600ff;
+  color: #0066cc;
 }
 
 .section-title--less-margin {
@@ -897,7 +896,7 @@ a {
 
 .feature-item {
   position: relative;
-  padding-bottom: 2.5rem;
+  padding-bottom: .5rem;
 }
 
 @media (min-width: 530px) {
@@ -967,7 +966,7 @@ a {
 }
 
 .testimonial__title {
-  color: #6600ff;
+  color: #0066cc;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 500;
@@ -1103,7 +1102,7 @@ Instead edit gulp/templates/sprite */
 
   .site-header {
     position: fixed;
-    background-color: rgba(102,0,255, .3);
+    background-color: rgba(0,102,204, .3);
   }
 
   .site-header--dark {
