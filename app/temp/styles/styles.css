@@ -852,6 +852,7 @@ a {
   font-size: 2.55rem;
   font-weight: 300;
   text-align: center;
+  color: #6600ff;
 
 }
 
@@ -920,6 +921,7 @@ a {
 }
 
 .feature-item__title {
+  color: #0066cc;
   font-size: 1.6rem;
   font-weight: 300;
   margin-top: .7em;
@@ -1095,7 +1097,7 @@ Instead edit gulp/templates/sprite */
 }
 
 .site-header--is-expanded {
-  background-color: rgba(102,0,255, .55);
+  background-color: rgba(0,102,204, .55);
 }
 
 @media (min-width: 800px) {
