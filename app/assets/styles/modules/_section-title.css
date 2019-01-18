@@ -1,5 +1,5 @@
 .section-title {
-  font-size: 2.55rem;
+  font-size: 3.55rem;
   font-weight: 300;
   text-align: center;
   color: $mainBlue;
@@ -13,7 +13,7 @@
   }
 
   &--blue {
-    color: $mainBluee;
+    color: $mainBlue;
   }
 
   &--less-margin {
