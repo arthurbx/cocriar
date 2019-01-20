@@ -1405,3 +1405,20 @@ Instead edit gulp/templates/sprite */
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.form {
+	min-height: 300px;
+	position: relative;
+	text-align: center;
+}
+
+.teste {
+	text-align: center;
+    display: block;
+}
+
+.teste1{
+	text-align: center;
+	width: 20%;
+	margin: 15px 30px 15px 30px;
+}

@@ -16,6 +16,9 @@
   <script src="/temp/scripts/Vendor.js"></script>
   <!-- endbuild -->
 
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+  <script src="https://raw.githubusercontent.com/ganapativs/bttn.css/master/dist/bttn.min.css"></script>
+  <script src="./main.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -178,37 +181,33 @@
     <div class="modal__inner">
       <h2 class="section-title section-title--blue section-title--less-margin"><span class="icon icon--mail section-title__icon"></span> Inicie sua <strong>Experiência!</strong></h2>
 
-    <?php include('form_process.php'); ?>
-
     <div class="form">  
-      <form id="contact" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
-        <h4>Contate-nos hoje, e receba uma resposta em 24 horas!</h4>
-        <fieldset>
-          <input placeholder="Nome" type="text" name="name"  tabindex="1" required autofocus>
-          <span class="error"><?= $name_error ?></span>
-        </fieldset>
-        <fieldset>
-          <input placeholder="Telefone" type="text"  name="phone"tabindex="2" required>
-          <span class="error"><?= $phone_error ?></span>
-        </fieldset>
-        <fieldset>
-          <input placeholder="Empresa" type="text"  name="email" tabindex="3" required>
-          <span class="error"><?= $email_error ?></span>
-        </fieldset>
-         <fieldset>
-          <input placeholder="Cargo" type="text" tabindex="4" required>
-        </fieldset>
-        <fieldset>
-          <input placeholder="Site com http://" type="text" name="url" tabindex="5" >
-          <span class="error"><?= $url_error ?></span>
-        </fieldset>
-        <fieldset>
-          <textarea placeholder="Digite sua mensagem aqui...." type="text" name="message" tabindex="6" required></textarea>
-        </fieldset>
-        <fieldset>
-          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
-        </fieldset>
-      </form> 
+       <form action="https://formspree.io/arthurbene@hotmail.com" method="POST">
+          <label class="teste" for=nome"">Nome</label>
+          <input id="nome" type="name" name="nome" class="teste1 nome"/>
+          
+          <label class="teste" for="telefone">Telefone</label>
+          <input id="telefone" type="text" name="telefone" class="teste1 telefone"/>
+          
+          <label class="teste" for="empresa">Empresa</label>
+          <input id="empresa" type="text" name="empresa" class="teste1 empresa"/>
+          
+          <label class="teste" for="cargo">Cargo</label>
+          <input id="cargo" type="text" name="cargo" class="teste1 cargo"/>
+          
+          <label class="teste" for="site">Site</label>
+          <input id="site" type="text" name="site" class="teste1 site"/>
+          
+          <label class="teste" for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" class="teste1 mensagem"></textarea>
+          
+          <div class="status">
+
+          </div>
+          <button type="submit" class="submit">
+             Send
+          </button>
+        </form>
     </div>
 
     <div class="social-icons">
