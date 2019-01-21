@@ -17,7 +17,6 @@
   <!-- endbuild -->
 
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-  <script src="https://raw.githubusercontent.com/ganapativs/bttn.css/master/dist/bttn.min.css"></script>
   <script src="./main.js"></script>
 </head>
 <body>
@@ -173,7 +172,13 @@
 
   <footer class="site-footer">
     <div class="wrapper">
+      <a href="https://www.instagram.com/cocriar.go/" target="_blank" class="social-icons__icon"><span class="icon icon--instagram"></span></a>
+      <a href="#" class="social-icons__icon"><span class="icon icon--youtube"></span></a>
       <p><span class="site-footer__text">Copyright &copy; 2019 COcriar. Todos os direitos reservados.</span> <a href="#" class="btn btn--orange open-modal">Conecte-se</a></p>
+         <div class="social-icons">
+
+    </div>
+
     </div>
   </footer>
 
@@ -181,38 +186,36 @@
     <div class="modal__inner">
       <h2 class="section-title section-title--blue section-title--less-margin"><span class="icon icon--mail section-title__icon"></span> Inicie sua <strong>Experiência!</strong></h2>
 
-    <div class="form">  
+    <div class="form">
+      <div id="form-div">  
        <form action="https://formspree.io/arthurbene@hotmail.com" method="POST">
-          <label class="teste" for=nome"">Nome</label>
-          <input id="nome" type="name" name="nome" class="teste1 nome"/>
+          <label class="teste" for=nome""/label>
+          <input name="nome" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nome" id="nome"/>
           
-          <label class="teste" for="telefone">Telefone</label>
-          <input id="telefone" type="text" name="telefone" class="teste1 telefone"/>
+          <label class="teste" for="telefone"></label>
+          <input name="telefone" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Telefone" id="telefone"/>
           
-          <label class="teste" for="empresa">Empresa</label>
-          <input id="empresa" type="text" name="empresa" class="teste1 empresa"/>
+          <label class="teste" for="empresa"></label>
+          <input name="empresa" type="text" class="validate[required,custom[email]] feedback-input" id="empresa" placeholder="Empresa" />
           
-          <label class="teste" for="cargo">Cargo</label>
-          <input id="cargo" type="text" name="cargo" class="teste1 cargo"/>
+          <label class="teste" for="cargo"></label>
+          <input name="cargo" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Cargo" id="cargo"/>
           
-          <label class="teste" for="site">Site</label>
-          <input id="site" type="text" name="site" class="teste1 site"/>
+          <label class="teste" for="site"></label>
+          <input name="site" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Site" id="site"/>
           
-          <label class="teste" for="mensagem">Mensagem</label>
-          <textarea id="mensagem" name="mensagem" class="teste1 mensagem"></textarea>
+          <label class="teste" for="mensagem"></label>
+          <textarea name="mensagem" class="validate[required,length[6,300]] feedback-input" id="mensagem" placeholder="Mensagem"></textarea>
           
           <div class="status">
 
           </div>
-          <button type="submit" class="submit">
-             Send
-          </button>
+          <div class="submit">
+            <input type="submit" value="ENVIAR" id="button-blue"/>
+            <div class="ease"></div>
+          </div>
         </form>
-    </div>
-
-    <div class="social-icons">
-      <a href="https://www.instagram.com/cocriar.go/" target="_blank" class="social-icons__icon"><span class="icon icon--instagram"></span></a>
-      <a href="#" class="social-icons__icon"><span class="icon icon--youtube"></span></a>
+      </div>
     </div>
     </div>
     <div class="modal__close">X</div>
