@@ -828,11 +828,11 @@ Instead edit gulp/templates/sprite */.icon {
 }.social-icons__icon {
   background-color: #6600ff;
   display: inline-block;
-  margin: 0 5px 5px 5px;
+  margin: 0 0 0 0;
   width: 23%;
-  height: 42px;
+  height: 12px;
   position: relative;
-  left: -35%;
+  left: -1.2%;
 }@media (min-width: 530px){.social-icons__icon{
     width: 72px;
     margin: 0 5px;

@@ -2,11 +2,11 @@
   &__icon {
     background-color: $mainBlue;
     display: inline-block;
-    margin: 0 5px 5px 5px;
+    margin: 0 0 0 0;
     width: 23%;
-    height: 42px;
+    height: 12px;
     position: relative;
-    left: -35%;
+    left: -1.2%;
 
     @mixin atSmall {
       width: 72px;
