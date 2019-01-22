@@ -9,7 +9,7 @@
     left: -1.2%;
 
     @mixin atSmall {
-      width: 72px;
+      width: 52px;
       margin: 0 5px; 
     }
 
