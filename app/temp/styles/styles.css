@@ -644,10 +644,10 @@ Instead edit gulp/templates/sprite */.icon {
   z-index: 2;
   transition: background-color .3s ease-out;
 }.site-header--is-expanded {
-  background-color: rgba(0,102,204, .55);
+  background-color: rgba(23, 51, 72, .55);
 }@media (min-width: 800px){.site-header{
     position: fixed;
-    background-color: rgba(0,102,204, .3);
+    background-color: rgba(23, 51, 72, .3);
   }.site-header--dark{
     background-color: rgba(23, 51, 72, .85);
   }
@@ -661,7 +661,6 @@ Instead edit gulp/templates/sprite */.icon {
   transform: translateX(-50%) scale(.8);
   transition: transform .3s ease-out;
   transform-origin: 50% 0;
-  background-color: rgba(0,102,204, .55);
   padding: 24.5px 36px;
 }@media (min-width: 800px){.site-header__logo{
     left: auto;
@@ -669,7 +668,6 @@ Instead edit gulp/templates/sprite */.icon {
   }.site-header--dark .site-header__logo{
     transform: scale(.56);
     transition: transform .3s ease-out;
-    background-color: rgba(23, 51, 72, .3);
   }
 }.site-header__logo__graphic {
   text-indent: -9999px;
