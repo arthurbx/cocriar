@@ -1,6 +1,5 @@
 .social-icons {
   &__icon {
-    background-color: $mainBlue;
     display: inline-block;
     margin: 0 0 0 0;
     width: 23%;
